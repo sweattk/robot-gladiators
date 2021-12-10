@@ -1,4 +1,5 @@
 var playerName = window.prompt("What is your robot's name?");
+console.log(playerName)
 var playerHealth = 100;
 var playerAttack = 10;
 
@@ -18,7 +19,7 @@ var fight = function() {
   window.alert("Welcome to Robot Gladiators!");
 };
 // execute function
-fight();
+//fight();
 
 //Subtract the value of `playerAttack` from the value of `enemyHealth` and use that result to update the value in the `enemyHealth` variable
 enemyHealth = enemyHealth - playerAttack;
